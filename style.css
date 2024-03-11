@@ -1,0 +1,43 @@
+.header {
+    background-color: rgb(84, 84, 196);
+}
+
+.header * {
+    color: white;
+}
+
+.header-btn {
+    background-color: purple;
+    padding: 10px;
+}
+
+.section {
+    box-shadow: 5px 5px 10px black;
+}
+
+.header, .section {
+    text-align: center;
+    padding: 10px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    height: 100vh;
+}
+
+.header-btn:hover {
+    background-color: black;
+}
+
+.hover-red:hover {
+    background-color: red;
+}
+
+.sponsor-align {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sponsor-align img {
+    height: 100px;
+    filter: drop-shadow(5px 5px 10px black);
+}
